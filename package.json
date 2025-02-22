@@ -1,6 +1,6 @@
 {
   "name": "docs",
-  "homepage": "https://github.com/janvi100104/docs-mini-app",
+  "homepage": "https://janvi100104.github.io/docs-mini-app/",
   "private": "false",
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy":"npm run build",
-    "deploy":"gh-pages -d docs"  },
+    "deploy":"gh-pages -d dist"  },
   "dependencies": {
     "gh-pages": "^6.3.0",
     "react": "^18.3.1",
